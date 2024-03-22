@@ -5,14 +5,16 @@
     box-sizing: border-box;
 }
 
+/* ------------- GENERAL ----------- */
+
 @font-face {
     font-family: ggsans;
     src: url(../font/gg\ sans\ Medium.ttf);
 }
 
 @font-face {
-    font-family: ggsans;
-    src: url(../font/gg\ sans\ Medium.ttf);
+    font-family: ggsans-bold;
+    src: url(../font/gg\ sans\ Semibold.ttf);
 }
 
 body {
@@ -20,10 +22,20 @@ body {
 }
 
 p {
-    font-size: 20px;
+    line-height: 1.5em;
+    font-size: 25px;
+    font-weight: 500;
 }
 
-/* HEADER */
+.btn {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin: 10px;
+}
+
+/*------------ HEADER -----------*/
 header {
     padding: 10px 0px;
     background-color: #3161E0;
@@ -45,16 +57,18 @@ a {
     color: white;
 }
 
-.btn {
-    color: black;
-    background-color: white;
-    border-radius: 25px;
-    padding: 10px;
+#login {
+    padding: 10px 15px;
 }
 
-/* SEZIONE DOWNLOAD */
+/*----------- SEZIONE DOWNLOAD -----------*/
 
 h1 {
+    font-family: 'ggsans-bold';
     font-size: 60px;
-    padding: 15px;
+    padding-bottom: 50px;
+}
+
+p.white {
+    padding-bottom: 50px;
 }

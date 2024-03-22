@@ -26,6 +26,14 @@
     padding: 40px 0;
 }
 
+.px-10 {
+    padding: 0 10px;
+}
+
+.px-40 {
+    padding: 0 40px;
+}
+
 .padding-5col {
     padding-top: 10px;
     padding-bottom: 30px;
@@ -34,6 +42,16 @@
 .padding-footer {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+/* MARGIN */
+
+.margin-10px {
+    margin: 10px;
+}
+
+.margin-20px {
+    margin: 20px;
 }
 
 /* HEIGHT */
@@ -82,7 +100,7 @@
 }
 
 .bg-darkgrey {
-    background-color: rgb(25, 25, 25);
+    background-color: #23272A;
 }
 
 .bg-aquamarine {
