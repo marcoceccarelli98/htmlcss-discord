@@ -96,7 +96,7 @@
 }
 
 .bg-lightgrey {
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 .bg-green {
@@ -114,5 +114,11 @@
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-stars {
+    background-image: url(../img/stars.svg);
+    background-position: center;
     background-repeat: no-repeat;
 }
