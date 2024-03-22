@@ -111,6 +111,10 @@
     background-color: aquamarine;
 }
 
+.bg-lilac {
+    background-color: #8EA1E1;
+}
+
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -121,4 +125,5 @@
     background-image: url(../img/stars.svg);
     background-position: center;
     background-repeat: no-repeat;
+    background-position-y: top;
 }
