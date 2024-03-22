@@ -61,7 +61,7 @@ a {
     padding: 10px 15px;
 }
 
-/*----------- SEZIONE DOWNLOAD -----------*/
+/*----------- DOWNLOAD SECTION -----------*/
 
 h1 {
     font-family: 'ggsans-bold';
@@ -71,4 +71,12 @@ h1 {
 
 p.white {
     padding-bottom: 50px;
+}
+
+/* ---------- DESCRIPTION SECTION ---------- */
+
+h2 {
+    font-family: 'ggsans-bold';
+    font-size: 60px;
+    line-height: 70px;
 }
