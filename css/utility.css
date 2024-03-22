@@ -1,0 +1,83 @@
+/* --------------- UTILITY ---------------*/
+.border-dashed {
+    padding: 5px;
+    border: 1px solid;
+    border-style: dashed;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* PADDING */
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-40 {
+    padding: 40px 0;
+}
+
+.padding-5col {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.padding-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* HEIGHT */
+.height-400px {
+    height: 400px;
+}
+
+.height-700px {
+    height: 700px;
+}
+
+/* COLORS */
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-blue {
+    background-color: cornflowerblue;
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+}
+
+.bg-lightgrey {
+    background-color: lightgray;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-darkgrey {
+    background-color: rgb(25, 25, 25);
+}
+
+.bg-aquamarine {
+    background-color: aquamarine;
+}
