@@ -46,7 +46,7 @@ header {
     padding-top: 10px;
 }
 
-ul {
+.menu {
     display: flex;
     gap: 35px;
     justify-content: center;
@@ -107,3 +107,25 @@ h3 {
 }
 
 /* -------------- FOOTER ---------------- */
+
+footer {
+    color: white;
+}
+
+.footer-list {
+    gap: 35px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#flag {
+    width: 20px;
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(53%) saturate(0%) hue-rotate(257deg) brightness(117%) contrast(101%);
+    margin: 20px 0;
+    margin-right: 20px;
+}
