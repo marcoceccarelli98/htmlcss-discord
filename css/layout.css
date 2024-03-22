@@ -7,13 +7,13 @@
 .container-small {
     max-width: 900px;
     margin: auto;
-    padding-bottom: 140px;
+    /* padding-bottom: 140px; */
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .d-flex {
