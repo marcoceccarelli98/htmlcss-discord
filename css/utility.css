@@ -45,7 +45,14 @@
     height: 700px;
 }
 
-/* COLORS */
+/* TEXT COLOR */
+
+.white {
+    color: white;
+}
+
+
+/* BACKGROUNDS */
 .bg-orange {
     background-color: orange;
 }
@@ -80,4 +87,10 @@
 
 .bg-aquamarine {
     background-color: aquamarine;
+}
+
+.bg-jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
