@@ -17,6 +17,8 @@
     text-align: right;
 }
 
+
+
 /* PADDING */
 .py-10 {
     padding: 10px 0;
@@ -41,6 +43,10 @@
 
 .padding-top-30 {
     padding-top: 30px;
+}
+
+.padding-top-60 {
+    padding-top: 60px;
 }
 
 /* MARGIN */

@@ -93,6 +93,17 @@ h2 {
     padding: 0px;
 }
 
+.wave {
+    filter: brightness(0) saturate(100%) invert(96%) sepia(100%) saturate(0%) hue-rotate(343deg) brightness(105%) contrast(93%);
+    margin-bottom: -5px;
+}
+
+.wave-reverse {
+    filter: brightness(0) saturate(100%) invert(96%) sepia(100%) saturate(0%) hue-rotate(343deg) brightness(105%) contrast(93%);
+    margin-top: -5px;
+    transform: scale(-1);
+}
+
 /* ------------ FINAL IMAGE -------------- */
 
 h3 {
@@ -110,6 +121,16 @@ h3 {
 
 footer {
     color: white;
+}
+
+footer h2 {
+    color: #7189D9;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+footer li {
+    vertical-align: top;
 }
 
 .footer-list {
